@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 1440px;
+  margin: 0 auto;
+  font-family: Manrope;
+}
+
+
+@media (max-width: 768px) {
+  body{
+    width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  body{
+    width: 320px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('../public/font/Manrope-Regular.ttf');
+}
+
+

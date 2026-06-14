@@ -1,0 +1,112 @@
+.container{
+    height: 385px;
+    background-color: #EEF2F5;
+    padding: 30px 100px 30px 100px;
+
+
+    .cards{
+        display: grid;
+        grid-template-columns: 280px 280px 280px 280px;
+        column-gap: 40px;
+
+        .card{
+            width: 280px;
+            height: 181px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 25px;
+            color: #0D2438;
+            
+            .text{
+                font-size: 20px;
+                font-weight: 800;
+                margin: 10px 0 0 0;
+                width: 192px;
+            }
+
+            .description{
+                font-size: 16px;
+                margin: 10px 0 0 0;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .container{
+        height: 160px;
+        padding: 30px 53px;
+
+
+        .cards{
+            grid-template-columns: 150px 150px 150px 150px;
+            column-gap: 21px;
+
+            .card{
+                width: 150px;
+                height: 96px;
+                padding: 10px;
+                border-radius: 13px;
+
+                img{
+                    width: 26px;
+                }
+                
+                .text{
+                    font-size: 10px;
+                    margin: 5px 0 0 0;
+                    width: 105px;
+                }
+
+                .description{
+                    font-size: 8px;
+                    margin: 5px 0 0 0;
+                    width: 102px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 320px) {
+
+    .container{
+        height: 160px;
+        padding: 20px 22px;
+
+
+        .cards{
+            grid-template-columns: 80px 80px 80px;
+            column-gap: 18px;
+            grid-template-rows: 51px 51px;
+            row-gap: 10px;
+
+            .card{
+                width: 80px;
+                height: 51px;
+                padding: 5px;
+                border-radius: 7px;
+
+                img{
+                    width: 14px;
+                }
+                
+                .text{
+                    font-size: 5px;
+                    margin: 0px 0 0 0;
+                    width: 55px;
+                }
+
+                .description{
+                    font-size: 4px;
+                    margin: 2px 0 0 0;
+                    width: 55px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.container{
+    padding: 40px 100px;
+    background-color: #0D2438;
+
+    .content{
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 16px;
+
+        .mail{
+            width: 165px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .container{
+        padding: 21px 53px;
+
+        .content{
+            font-size: 8px;
+            width: 662px;
+
+            .mail{
+                width: 88px;
+                display: flex;
+                justify-content: space-between;
+
+                img{
+                    width: 11px;
+                    height: 11px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+@media (max-width: 320px) {
+
+    .container{
+        padding: 9px 22px;
+
+        .content{
+            font-size: 5px;
+            width: 275px;
+
+            .mail{
+                width: 37px;
+
+                img{
+                    width: 5px;
+                    height: 5px;
+                }
+            }
+        }
+    }
+
+
+}

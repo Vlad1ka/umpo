@@ -1,0 +1,143 @@
+.container{
+    height: 410px;
+    background-color: #EEF2F5;
+    padding: 50px 100px 30px 100px;
+
+    .title{
+        color: #0D2438;
+        font-weight: 800;
+        font-size: 32px;
+    }
+
+    hr{
+        border: 3px solid #A33534;
+        margin: 10px 0 0 0;
+        width: 60px;
+    }
+
+    .cards{
+        margin: 50px 0 0 0;
+        display: grid;
+        grid-template-columns: 580px 580px;
+        column-gap: 80px;
+
+        .card{
+            width: 580px;
+            height: 174px;
+            padding: 25px 30px;
+            background-color: #fff;
+            border-radius: 25px;
+            color: #0D2438;
+            
+            .text{
+                font-size: 20px;
+                font-weight: 800;
+                margin: 10px 0 0 0;
+                width: 157px;
+            }
+
+            .description{
+                font-size: 16px;
+                margin: 10px 0 0 0;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .container{
+        height: 205px;
+        padding: 27px 53px 15px 53px;
+
+        .title{
+            font-size: 17px;
+        }
+
+        hr{
+            border: 1.6px solid #A33534;
+            margin: 6px 0 0 0;
+            width: 32px;
+        }
+
+        .cards{
+            margin: 26px 0 0 0;
+            grid-template-columns: 309px 309px;
+            column-gap: 41px;
+
+            .card{
+                width: 309px;
+                height: 93px;
+                padding: 13px 16px;
+                border-radius: 13px;
+
+                img{
+                    width: 21px;
+                    height: 21px;
+                }
+                
+                .text{
+                    font-size: 10px;
+                    margin: 5px 0 0 0;
+                }
+
+                .description{
+                    font-size: 8px;
+                    margin: 5px 0 0 0;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 320px) {
+
+    .container{
+        height: 200px;
+        padding: 11px 22px 15px 22px;
+
+        .title{
+            font-size: 10px;
+        }
+
+        hr{
+            border: 1px solid #A33534;
+            margin: 2px 0 0 0;
+            width: 14px;
+        }
+
+        .cards{
+            margin: 10px 0 0 0;
+            grid-template-columns: 220px;
+            grid-template-rows: 66px 66px;
+            row-gap: 10px;
+
+            .card{
+                width: 220px;
+                height: 66px;
+                padding: 9px 11px;
+                border-radius: 9px;
+
+                img{
+                    width: 15px;
+                    height: 15px;
+                }
+                
+                .text{
+                    font-size: 7px;
+                    margin: 5px 0 0 0;
+                }
+
+                .description{
+                    font-size: 6px;
+                    margin: 4px 0 0 0;
+                }
+            }
+        }
+    }
+
+}

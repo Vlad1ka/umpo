@@ -1,0 +1,173 @@
+.container{
+    background-color: #EEF2F5;
+   
+
+    .content{
+        width: 1240px;
+        height: 363px;
+        background-color: rgb(13, 36, 56, 0.1);
+        margin: 0 100px;
+        border-radius: 30px;
+        padding: 40px 50px;
+
+        .title{
+            font-weight: 800;
+            font-size: 24px;
+        }
+
+        form{
+            width: 1140px;
+            height: 363px;
+            margin: 5px 0 0 0;
+
+            input{
+                margin: 20px 0 0 0;
+                width: 1140px;
+                height: 40px;
+                border: 1px solid rgb(13, 36, 56, 0.5);
+                border-radius: 30px;
+                padding: 0 20px;
+                font-family: Manrope;
+                font-size: 16px;
+            }
+
+            select{
+                margin: 20px 0 0 0;
+                width: 1140px;
+                height: 40px;
+                border: 1px solid rgb(13, 36, 56, 0.5);
+                border-radius: 30px;
+                padding: 0 20px;
+                font-family: Manrope;
+                font-size: 16px;
+            }
+
+            .btn{
+                width: 1140px;
+                height: 40px;
+                margin: 25px 0 0 0;
+                background-color: #A33534;
+                font-family: Manrope;
+                font-weight: 800;
+                font-size: 16px;
+                color: #fff;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+
+    .container{
+    
+
+        .content{
+            width: 661px;
+            height: 193px;
+            margin: 0 53px;
+            border-radius: 16px;
+            padding: 21px 26px;
+
+            .title{
+                font-size: 13px;
+            }
+
+            form{
+                width: 608px;
+                height: 120px;
+                margin: 3px 0 0 0;
+
+                input{
+                    margin: 10px 0 0 0;
+                    width: 608px;
+                    height: 21px;
+                    border: 0.5px solid rgb(13, 36, 56, 0.5);
+                    border-radius: 16px;
+                    padding: 0 10px;
+                    font-size: 8px;
+                }
+
+                select{
+                    margin: 10px 0 0 0;
+                    width: 608px;
+                    height: 21px;
+                    border: 0.5px solid rgb(13, 36, 56, 0.5);
+                    border-radius: 16px;
+                    padding: 0 10px;
+                    font-size: 8px;
+                }
+
+                .btn{
+                    width: 608px;
+                    height: 21px;
+                    margin: 13px 0 0 0;
+                    font-size: 9px;
+                    border-radius: 16px;
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+@media (max-width: 320px) {
+
+    .container{
+    
+
+        .content{
+            width: 276px;
+            height: 130px;
+            margin: 0 10px;
+            border-radius: 6px;
+            padding: 9px 11px;
+
+            .title{
+                font-size: 7px;
+            }
+
+            form{
+                width: 253px;
+                height: 81px;
+                margin: 5px 0 0 0;
+
+                input{
+                    margin: 6px 0 0 0;
+                    width: 253px;
+                    height: 15px;
+                    border: 0.2px solid rgb(13, 36, 56, 0.5);
+                    border-radius: 6px;
+                    padding: 0 5px;
+                    font-size: 5px;
+                }
+
+                select{
+                    margin: 6px 0 0 0;
+                    width: 253px;
+                    height: 15px;
+                    border: 0.2px solid rgb(13, 36, 56, 0.5);
+                    border-radius: 6px;
+                    padding: 0 5px;
+                    font-size: 5px;
+                }
+
+                .btn{
+                    width: 253px;
+                    height: 15px;
+                    margin: 9px 0 0 0;
+                    font-size: 5px;
+                    border-radius: 6px;
+                }
+            }
+        }
+        
+    }
+}

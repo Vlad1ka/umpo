@@ -1,0 +1,136 @@
+.container{
+    width: 1240px;
+    height: 110px;
+    margin: 45px 100px 0px 100px;
+
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        nav{
+            width: 445px;
+            margin-left: 187px;
+            display: flex;
+            justify-content: space-between;
+            
+            .link{
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 800;
+                color: #0D2438;
+            }
+        }
+
+        .btn{
+            width: 200px;
+            height: 50px;
+            background-color: #A33534;
+            border-radius: 25px;
+            font-family: Manrope;
+            font-weight: 800;
+            font-size: 16px;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .burgerButton{
+        display: none;
+    }
+
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .container{
+        width: 661px;
+        height: 61px;
+        margin: 23px 53px 0px 53px;
+
+        .content{
+            
+            img{
+                width: 164px;
+                height: 37px;
+            }
+
+            nav{
+                width: 237px;
+                margin-left: 100px;
+                
+                .link{
+                    font-size: 9px;
+                }
+            }
+
+            .btn{
+                width: 106px;
+                height: 27px;
+                border-radius: 13px;
+                font-size: 9px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .container{
+        width: 275px;
+        height: 40px;
+        margin: 10px 22px 10px 22px;
+
+        .content{
+            
+            img{
+                width: 68px;
+                height: 16px;
+            }
+
+            nav{
+                display: none;
+            }
+
+            .btn{
+                display: none;
+            }
+
+            .burgerButton{
+                display: block;
+                width: 20px;
+                height: 11px;
+            }
+        }
+
+        .mobileMenu{
+            width: 275px;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .link{
+                text-decoration: none;
+                font-size: 6px;
+                font-weight: 800;
+                color: #0D2438;
+            }
+
+            .mobileBtn{
+                width: 60px;
+                height: 15px;
+                font-size: 6px;
+                background-color: #A33534;
+                border-radius: 10px;
+                font-family: Manrope;
+                font-weight: 800;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

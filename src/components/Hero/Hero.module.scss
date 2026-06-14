@@ -1,0 +1,205 @@
+.container{
+    height: 811px;
+    background-color: #0D2438;
+    padding: 60px 100px;
+
+    .title{
+        font-size: 48px;
+        font-weight: 800;
+        color: #fff;
+        width: 523px;
+
+    }
+
+    .description{
+        margin: 30px 0 0 0;
+        color: #fff;
+        width: 684px;
+        font-size: 20px;
+    }
+
+    .btn{
+        margin: 30px 0 0 0;
+        width: 210px;
+        height: 50px;
+        background-color: #E6B12E;
+        border-radius: 25px;
+        border: none;
+        font-size: 16px;
+        font-weight: 800;
+        color: #fff;
+        font-family: Manrope;
+        cursor: pointer;
+    }
+
+    .benefits{
+        margin: 40px 0 0 0;
+        display: grid;
+        grid-template-columns: 290px 290px;
+        grid-template-rows: 126px 126px;
+        column-gap: 40px;
+        row-gap: 40px;
+
+        .benefit{
+            height: 126px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 25px;
+
+            .digit{
+                color: #E6B12E;
+                font-weight: 800;
+                font-size: 32px;
+            }
+
+            .text{
+                color: #fff;
+                font-size: 16px;
+                font-weight: 800;
+                margin: 10px 0 0 0;
+            }
+        }
+
+        .benefit:nth-of-type(1){
+            width: 290px;
+        }
+
+        .benefit:nth-of-type(2){
+            width: 316px;
+        }
+
+        .benefit:nth-of-type(3){
+            width: 347px;
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    .container{
+        height: 450px;
+        padding: 32px 53px;
+
+        .title{
+            font-size: 25px;
+            width: 280px;
+        }
+
+        .description{
+            width: 364px;
+            font-size: 11px;
+        }
+
+        .btn{
+            margin: 15px 0 0 0;
+            width: 112px;
+            height: 26px;
+            border-radius: 13px;
+            font-size: 9px;
+        }
+
+        .benefits{
+            margin: 20px 0 0 0;
+            grid-template-columns: 154px 154px;
+            grid-template-rows: 67px 67px;
+            column-gap: 20px;
+            row-gap: 20px;
+
+            .benefit{
+                height: 67px;
+                border-radius: 13px;
+                padding: 13px;
+
+                .digit{
+                    font-size: 17px;
+                }
+
+                .text{
+                    font-size: 8px;
+                    margin: 5px 0 0 0;
+                }
+            }
+
+            .benefit:nth-of-type(1){
+                width: 154px;
+            }
+
+            .benefit:nth-of-type(2){
+                width: 168px;
+            }
+
+            .benefit:nth-of-type(3){
+                width: 185px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 320px) {
+
+    .container{
+        height: 222px;
+        padding: 14px 22px;
+
+        .title{
+            font-size: 16px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .description{
+            width: 248px;
+            font-size: 6px;
+            text-align: center;
+            margin-top: 12px;
+            margin-left: 14px;
+        }
+
+        .btn{
+            margin: 10px 0 0 96px;
+            width: 85px;
+            height: 19px;
+            border-radius: 10px;
+            font-size: 6px;
+        }
+
+        .benefits{
+            margin: 22px 0 0 0;
+            grid-template-columns: 117px 117px;
+            grid-template-rows: 28px 28px;
+            column-gap: 23px;
+            row-gap: 9px;
+
+            .benefit{
+                height: 28px;
+                border-radius: 5px;
+                padding: 5px 10px;
+
+                .digit{
+                    font-size: 7px;
+                }
+
+                .text{
+                    font-size: 4px;
+                    margin: 2px 0 0 0;
+                }
+            }
+
+            .benefit:nth-of-type(1){
+                width: 117px;
+            }
+
+            .benefit:nth-of-type(2){
+                width: 127px;
+            }
+
+            .benefit:nth-of-type(3){
+                width: 140px;
+            }
+        }
+    }
+}
