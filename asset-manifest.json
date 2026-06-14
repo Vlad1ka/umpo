@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/umpo/static/css/main.4ba4e999.css",
+    "main.js": "/umpo/static/js/main.19dc1239.js",
+    "static/media/Manrope-Regular.ttf": "/umpo/static/media/Manrope-Regular.3d92b64331e124bd334e.ttf",
+    "index.html": "/umpo/index.html",
+    "main.4ba4e999.css.map": "/umpo/static/css/main.4ba4e999.css.map",
+    "main.19dc1239.js.map": "/umpo/static/js/main.19dc1239.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ba4e999.css",
+    "static/js/main.19dc1239.js"
+  ]
+}
