@@ -1,7 +1,7 @@
 {
   "name": "vkr",
   "version": "0.1.0",
-  "homepage": "https://vlad1ka.github.io/umpo",
+  "homepage": "https://Vlad1ka.github.io/umpo",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
